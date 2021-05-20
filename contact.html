@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="device-width" initial-scale="1.0">
+        <title>Portfolio web page</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--Nav-bar section-->
+        <nav id="navbar">
+            <a href="index.html">Home</a>
+            <a href="tweets.html">Projects</a>
+            <a href="About.html">About Me</a>
+            <a href="contact.html">Contact</a>
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="wZooqHIM"></script>
+            <div class="fb-share-button" data-href="https://www.facebook.com/harry.mycri" data-layout="button_count" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2Fharry.mycri&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+            <a href="https://twitter.com/intent/tweet?screen_name=HarryMycri&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-show-count="false">Tweet to @HarryMycri</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </nav>
+        <!--Main section-->
+        <main>
+          <div class="grid-container">
+            <article class="item1">
+              <div class="container">  
+                <form id="contact" action="mailto:haroldmycri@gmail.com" enctype=”multipart/form-data” method="post">
+                  <h3>Contact On</h3>
+                  <h4>Contact us for software development</h4>
+                  <fieldset>
+                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Email Address" type="email" tabindex="2" required>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Phone Number (optional)" type="tel" tabindex="3" required>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Your Web Site link" type="url" tabindex="4" required>
+                  </fieldset>
+                  <fieldset>
+                    <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                  </fieldset>
+                </form>
+              </div>
+          </article>   
+          <aside class="item2">
+          </aside>
+          </div>
+        <!--Contact details section-->
+        <section class="contacts">
+          <h3 id="Contact">Contact Details</h3>
+          <p>You can also contact me on</p>
+          <ul class="contact-links">
+              <li><a id="profile-link" href="https://github.com/HaroldMaisiri" target="_blank"><i class="fab fa-github"></i>Github</a></li>
+              <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+              <li><a href="https://twitter.com/HarryMycri?s=03" target="_blank"><i class="fab fa-twitter"></i>Twitter</a></li>
+              <li><a href = "mailto: haroldmycri@gmail.com"><i class="fas fa-at"></i> Send a mail</a></li>
+          </ul>
+      </section>
+  
+        <footer>
+            Made by <b>Harold Maisiri</b> for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a>
+        </footer>
+    </body>
